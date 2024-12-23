@@ -1,0 +1,91 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    margin: auto;
+}
+
+.timkim {
+    width: 960px;
+    margin: 0 auto;
+	padding-left: 10px;
+}
+
+.khung {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+	background-image:url("../screenshot_1734943230.png")
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nchoa h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+
+
+.search-bar {
+    display: flex;
+    gap: 5px;
+	padding-left: 800px;
+}
+
+.search-bar input {
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #555;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: orange;
+}
+
+.menu {
+    background-color: #333;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+.menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.menu ul li a:hover {
+    background-color: orange;
+    color: white;
+}
+.search-bar{
+	float:right;
+}
+.timkiem
